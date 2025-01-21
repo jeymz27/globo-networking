@@ -36,3 +36,10 @@ variable "public_subnets" {
   }
 }
 
+variable "billing_code" {
+  type        = string
+  description = "(Required) Billing code to use for all resources in this module. Default: 123456"
+
+
+}
+
